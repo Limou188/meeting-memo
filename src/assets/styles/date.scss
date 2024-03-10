@@ -1,0 +1,19 @@
+.myDateStyle {
+  .el-input__wrapper{
+    box-shadow: 0 0 0 0px var(--el-input-border-color, var(--el-border-color))
+      inset;
+    // cursor: default;
+    // .el-input__inner {
+    //   cursor: default !important;
+    // }
+  }
+  .el-input__wrapper:hover{
+    box-shadow: 0 0 0 0px var(--el-input-border-color, var(--el-border-color))
+  }
+  // :deep(.el-date-picker){
+  //   color: red;
+  // }
+  // .el-input__wrapper {
+  //   box-shadow: 0 0 0 0px var(--el-input-border-color, var(--el-border-color)) inset;
+  // }
+}
